@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian Atlas — World Statistics Explorer</title>
+<meta name="description" content="Explore and compare the vital statistics of 32 countries: population, GDP, life expectancy, literacy and more. A curated reference dataset, fully offline.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true">◐</span>
+    <span class="brand-text">Meridian <strong>Atlas</strong></span>
+  </a>
+  <nav class="mainnav" aria-label="Main">
+    <a href="#/" data-nav="overview">Overview</a>
+    <a href="#/countries" data-nav="countries">Countries</a>
+    <a href="#/compare" data-nav="compare">Compare</a>
+    <a href="#/charts" data-nav="charts">Charts</a>
+    <a href="#/about" data-nav="about">About the data</a>
+  </nav>
+</header>
+
+<main id="view" class="view" tabindex="-1"></main>
+
+<footer class="footer">
+  <p><strong>Meridian Atlas</strong> · A curated reference dataset of national statistics, compiled November 2026.
+  Base figures are rounded 2024 estimates; derived figures are computed on the site so totals always agree.
+  See <a href="#/about">About the data</a> for definitions. This site works entirely offline from its own files.</p>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
